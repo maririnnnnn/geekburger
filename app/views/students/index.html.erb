@@ -1,7 +1,7 @@
 <h1>GeekBurger</h1>
 <%= button_to 'ログアウト', destroy_user_session_path, method: :delete %>
 <h3>Member一覧</h3>
-<%= link_to "新規投稿ページへ", "/students/new" %>
+<%= link_to "新規投稿ページ!!", "/students/new" %>
 <div class="studentss-container">
     <% @students.each do |t| %>
     <div class="student">
